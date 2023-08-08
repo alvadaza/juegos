@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./juegos.css">
+    <title>Juegos de Parejas</title>
+</head>
+<body>
+    <header>
+        <div class="logo">SubhanHakin</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            
+        </div>
+        <nav class="nav-bar">
+            <ul class="active">
+                <li><a href="">Home</a></li>
+                <li><a href="">Portafolio</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">About Me</a></li>
+            </ul>         
+        </nav>
+        <script src="./script.js"></script>     
+    </header>  
+    <div class="game-board" id="gameBoard"></div>
+    <div class="message-container hidden" id="messageContainer">
+        <div class="message-content">
+            <h1 id="winMessage"></h1>
+            <p id="attemptsMessage"></p>
+            <button class="hidden" onclick="resetGame()"><p>Jugar de nuevo</p></button>
+        </div>
+    </div>	
+    <script src="./juego.js"></script>  	
+</body>
+</html>
